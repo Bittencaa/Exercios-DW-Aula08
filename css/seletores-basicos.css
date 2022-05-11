@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    color:#ddd
+}
+
+div[id="conteudo"]{
+    width: 800px;
+    background-color: black;
+    border: 12px;
+}
+
+li.cancelado{
+    text-decoration: underline;
+}
+
+li{padding: 0 0 0 40px;}
+
+ul li{
+    color: blue;
+}
+
+div[id="conteudo"] ul li{
+    margin: 0 0 20px 0
+}
+
+ ul + p{
+    color: red;
+}
+
+ul ~ p{
+    font-style: italic;
+}
+
+
+

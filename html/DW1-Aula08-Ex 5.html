@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="uft-8"/>
+        <title>Exercicio 4</title>
+        <style type="text/css">
+            table {
+                background-color: #e0ffe7;
+                border-collapse: collapse;
+            }
+            th, td {
+                border-style: solid;
+                border-color: green;
+                border-width: 1px;
+                padding: 10px;
+                width: 180px;
+            }
+            [colspan] {
+                border: none;
+                background-color: yellow;
+                color: green;
+            }
+            [time] {
+                border-left-width: 4px;
+            }
+            [ano] {
+                border-right-width: 4px;
+            }
+            [time="Flamengo"], [qtd="f1"], [ano="1981"] {
+                border-bottom-width: 4px;
+            }
+            [time="time"], [qtd="qtd"], [ano="ano"] {
+                border-top-width: 4px;
+                text-align: center;
+            }
+            [src] {
+                height: 20px;
+                width: 20px;
+                float: right;
+            }
+            tr:hover {
+                background-color: yellow;
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th colspan="3">Campeões Brasileiros da Libertadores</th>
+            </tr>
+            <tr>
+                <td time="time"><b>Time</b></td>
+                <td qtd="qtd"><b>Qtd</b></td>
+                <td ano="ano"><b>Qtd</b></td>
+            </tr>
+            <tr>
+                <td time="Sao Paulo">São Paulo
+                    <img src="imagens\sao-paulo.png" />
+                </td>
+                <td qtd="sp3">3</td>
+                <td ano="1992, 1993, 2005">1992, 1993, 2005</td>
+            </tr>
+            <tr>
+                <td time="Cruzeiro">Cruzeiro
+                    <img src="imagens\cruzeiro.jpg" />
+                </td>
+                <td qtd="c2">2</td>
+                <td ano="1976 e 1997">1976 e 1997</td>
+            </tr>
+            <tr>
+                <td time="Gremio">Grêmio
+                    <img src="imagens\gremio.png" />
+                </td>
+                <td qtd="g2">2</td>
+                <td ano="1983 e 1963">1983 e 1963</td>
+            </tr>
+            <tr>
+                <td time="Santos">Santos
+                    <img src="imagens\santos.png" />
+                </td>
+                <td qtd="s2">2</td>
+                <td ano="1962 e 1963">1962 e 1963</td>
+            </tr>
+            <tr>
+                <td time="Inter">Inter
+                    <img src="imagens\inter.jpg" />
+                </td>
+                <td qtd="i1">1</td>
+                <td ano="2006">2006</td>
+            </tr>
+            <tr>
+                <td time="Palmeiras">Palmeiras
+                    <img src="imagens\palmeiras.png" />
+                </td>
+                <td qtd="p1">1</td>
+                <td ano="1999">1999</td>
+            </tr>
+            <tr>
+                <td time="Vasco">Vasco
+                    <img src="imagens\vasco.jpg" />
+                </td>
+                <td qtd="v1">1</td>
+                <td ano="1998">1998</td>
+            </tr>
+            <tr>
+                <td time="Flamengo">Flamengo
+                    <img src="imagens\flamengo.jpg" />
+                </td>
+                <td qtd="f1">1</td>
+                <td ano="1981">1981</td>
+            </tr>
+        </table>
+    </body>
+</html>
